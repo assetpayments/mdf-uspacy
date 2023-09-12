@@ -1,0 +1,22 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+body {
+  @apply bg-gray-200;
+  @apply h-screen;
+}
+
+header {
+  @apply border-b-2;
+  @apply text-2xl;
+  @apply font-bold;
+  @apply padding-x-4;
+  @apply background-color-primary;
+  @apply color-white;
+}
+
+.container {
+  @apply max-w-md;
+  @apply mt-8;
+}
